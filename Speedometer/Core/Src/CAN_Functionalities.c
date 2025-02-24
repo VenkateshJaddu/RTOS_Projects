@@ -112,7 +112,7 @@ void CAN_Filter_Config(void)
 
 void HAL_CAN_TxMailbox0CompleteCallback(CAN_HandleTypeDef *hcan)
 {
-	send_msg("\r\nMessage Transmitted:Mailbox0\r\n");
+	//send_msg("\r\nMessage Transmitted:Mailbox0\r\n");
 }
 
 void HAL_CAN_TxMailbox1CompleteCallback(CAN_HandleTypeDef *hcan)

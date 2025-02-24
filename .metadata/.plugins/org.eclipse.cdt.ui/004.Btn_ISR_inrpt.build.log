@@ -1,0 +1,10 @@
+12:19:33 **** Incremental Build of configuration Debug for project 004.Btn_ISR_inrpt ****
+make -j8 all 
+arm-none-eabi-size  004.Btn_ISR_inrpt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32044	     28	  84636	 116708	  1c7e4	004.Btn_ISR_inrpt.elf
+Finished building: default.size.stdout
+ 
+
+12:19:34 Build Finished. 0 errors, 0 warnings. (took 1s.368ms)
+

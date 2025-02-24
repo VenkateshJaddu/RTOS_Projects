@@ -1,0 +1,35 @@
+23:40:44 **** Incremental Build of configuration Debug for project Speedometer ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main_1.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/JadduVenkatesh/Desktop/FreeRTOS/RTOS_WorkSpace/Common_RTOS_File/Third_Party/FreeRTOS/include" -I"C:/Users/JadduVenkatesh/Desktop/FreeRTOS/RTOS_WorkSpace/Common_RTOS_File/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/JadduVenkatesh/Desktop/FreeRTOS/RTOS_WorkSpace/Common_RTOS_File/Third_Party/SEGGER/Config" -I"C:/Users/JadduVenkatesh/Desktop/FreeRTOS/RTOS_WorkSpace/Common_RTOS_File/Third_Party/SEGGER/OS" -I"C:/Users/JadduVenkatesh/Desktop/FreeRTOS/RTOS_WorkSpace/Common_RTOS_File/Third_Party/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main_1.d" -MT"Core/Src/main_1.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main_1.o"
+arm-none-eabi-gcc -o "Speedometer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\JadduVenkatesh\Desktop\FreeRTOS\RTOS_WorkSpace\Speedometer\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Speedometer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Speedometer.elf
+ 
+arm-none-eabi-size  Speedometer.elf 
+arm-none-eabi-objdump -h -S Speedometer.elf  > "Speedometer.list"
+   text	   data	    bss	    dec	    hex	filename
+  40360	    100	  79444	 119904	  1d460	Speedometer.elf
+Finished building: default.size.stdout
+ 
+Finished building: Speedometer.list
+ 
+23:41:40 **** Incremental Build of configuration Debug for project Speedometer ****
+make -j8 all 
+arm-none-eabi-size  Speedometer.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40360	    100	  79444	 119904	  1d460	Speedometer.elf
+Finished building: default.size.stdout
+ 
+23:44:04 **** Incremental Build of configuration Debug for project Speedometer ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main_1.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/JadduVenkatesh/Desktop/FreeRTOS/RTOS_WorkSpace/Common_RTOS_File/Third_Party/FreeRTOS/include" -I"C:/Users/JadduVenkatesh/Desktop/FreeRTOS/RTOS_WorkSpace/Common_RTOS_File/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/JadduVenkatesh/Desktop/FreeRTOS/RTOS_WorkSpace/Common_RTOS_File/Third_Party/SEGGER/Config" -I"C:/Users/JadduVenkatesh/Desktop/FreeRTOS/RTOS_WorkSpace/Common_RTOS_File/Third_Party/SEGGER/OS" -I"C:/Users/JadduVenkatesh/Desktop/FreeRTOS/RTOS_WorkSpace/Common_RTOS_File/Third_Party/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main_1.d" -MT"Core/Src/main_1.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main_1.o"
+arm-none-eabi-gcc -o "Speedometer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\JadduVenkatesh\Desktop\FreeRTOS\RTOS_WorkSpace\Speedometer\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Speedometer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Speedometer.elf
+ 
+arm-none-eabi-size  Speedometer.elf 
+arm-none-eabi-objdump -h -S Speedometer.elf  > "Speedometer.list"
+   text	   data	    bss	    dec	    hex	filename
+  40348	    100	  79444	 119892	  1d454	Speedometer.elf
+Finished building: default.size.stdout
+ 
+Finished building: Speedometer.list
+ 

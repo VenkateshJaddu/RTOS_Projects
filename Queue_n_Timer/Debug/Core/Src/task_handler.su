@@ -1,0 +1,7 @@
+../Core/Src/task_handler.c:14:6:menu_task	40	static
+../Core/Src/task_handler.c:68:6:cmd_handler_task	40	static
+../Core/Src/task_handler.c:88:6:process_cmd	24	static
+../Core/Src/task_handler.c:112:5:extract_cmd	32	static
+../Core/Src/task_handler.c:137:6:print_task	32	static
+../Core/Src/task_handler.c:146:6:led_task	40	static
+../Core/Src/task_handler.c:196:6:rtc_task	16	static

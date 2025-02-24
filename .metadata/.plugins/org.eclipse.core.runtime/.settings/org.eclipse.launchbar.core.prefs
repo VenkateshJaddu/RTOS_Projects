@@ -1,0 +1,11 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Test,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:002.LEDs,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003.Task_Delete,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004.Btn_ISR_inrpt,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Binnary_Sema,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Cnt_Sema_Sw_Int,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Queue_n_Timer,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Sample_Project,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Speedometer
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Test/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Test/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:002.LEDs/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003.Task_Delete/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004.Btn_ISR_inrpt/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Speedometer/activeLaunchMode=debug

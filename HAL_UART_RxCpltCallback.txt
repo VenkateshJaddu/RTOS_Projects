@@ -1,0 +1,29 @@
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+
+
+	if(/*TODO: check : is queue full ? */)
+	{
+		/*Queue is not full */
+
+		/*TODO: Enqueue data byte */
+
+	}else{
+		/*Queue is full */
+
+		if(/*TODO: check, is user_data '\n'? */)
+		{
+			/*user_data = '\n' */
+
+			/*TODO: make sure that last data byte of the queue is '\n' */
+		}
+	}
+
+
+	/*TODO: send notification to command handling task if user_data = '\n' */
+
+
+	/* TODO: Enable UART data byte reception again in IT mode */
+
+
+}
